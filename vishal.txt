@@ -1,0 +1,129 @@
+> Create a file and change its permissions for user - rwx, group - r-x, and for others - r-x.
+ans) touch f1.txt and to change permissions we use chmod 755 file_name
+
+>Print the first 10 lines from a file called auspice.tx
+ans) head -10 auspice.txt
+
+> Print the last 10 lines from a file called auspice.txt
+ans) tail -10 auspice.txt
+
+>Write a echo statement to print - DevOps Engineer
+echo "DevOps engineer"
+
+>command to delete a directory
+rm -rf directory_name
+
+>Create a directory(d1) and a file(f1) in it, create another directory(d2) and copy the file from d1 to d2.
+
+cp f1 / d2
+
+>Rename a file from auspice.txt to DevOps.txt
+
+mv auspice.txt Devops.txt
+
+>Command to save the output of a command to a text file
+based on editor we use in vi editor i use "esc :wq"
+
+>write a command to search a word called “ACS” from a file auspice.txt
+awk "print ACS" auspice.txt
+
+>What is the use of wget command?
+wget command is used to download any data from internet by using its URLs
+
+>What is the use of following command ps, top, kill, df, mount, uname, Sudo, wc, awk, ping
+ps--it is used to check the processess that runs in the present folder/instance
+top--tells the user about all running commands in the instace/linuxmachine
+kill-- this command kills the running for the instance/linuxmachine
+df-it displays the diskspace of all files in the machine
+mount--it tells kernel to attach the file to the located directory
+uname-- it displays the info of system
+sudo -- it is used as a prefix command used to change permissions of users
+wc-- for word count we use it
+awk--it is a scripting language widely used for search/change/print/sort of a files
+ping-- it is used to know the present status of the server
+
+>PAT is a personal access token used to athentication of github 
+>settings>devloper settings>personal access tokens> create new token
+
+>Using the PAT created, establish connection between local and GitHub 
+ --git remote -origin url
+ --username:   , pat:
+ >cherry-pick-it is a powerful command that commits any individual branch to head
+>fetch-- use to fetch data from remote to local without changes
+>pull--used to pull updated data from remote
+>rebase- it is a linear process of merging updated branch
+>fastforward--it is process of merging present branch with ahead branch
+>stash--it is used to save the dirty state of your working dir which is not commited na dcan be used at anytime
+>merge-- is used to merge branchs
+
+>to delete branch in local: git git branch -D <local-branch>
+> in remote :git push origin --delete <remote-branch-name>
+
+>Command to Rename the branch? 
+--git branch -m new-branch-name
+
+>pull request?
+-- it used to take ref/permissions from team before merging to head
+
+>SHELL-SCRIPTING
+---The sign #! is called she-bang and is written at top of the script. It passes instruction to program /bin/sh.
+>“Auspice consultancy services” from this statement just print the word “Auspice” using sed command. 
+--sed 's/Auspice/g' Auspice consultancy services
+
+>	“Contact ACS on 075537711552” from this statement print the contact number using sed command.
+-- sed 's/ 075537711552/' “Contact ACS on 075537711552
+
+>What is the use of export command, explain with an example?
+--it is used to assign a value to variable
+
+>	“ACS-1111” from this string replace “-“ with “/“ using sed command.
+-- sed 's/-/ / /g' "$var_name"
+
+> For loop to print numbers from 5 to 50
+-- for(i=5,i<=50,i++)
+   do
+    echo $i
+   done
+
+>Until loop to print numbers from 1 to 10
+-- echo "until loop"
+i=1
+until [ $i == 10 ]
+do
+    echo "$i";
+    i=$((i+1))
+done
+
+>For loop to print numbers from 1 to 10, there must be 3 seconds sleep mode between each loop
+--for(i=1,i<=10,i++)
+  do
+    echo  "$i"
+  done
+  sleep 3
+
+>if condition example
+--if [ "$Dev" == "Devops"]
+    git clone url
+  fi
+
+>if else condition example
+---if [ "$Dev" == "Devops"]
+    git clone url
+else
+   echo  "wrong command"
+ fi
+
+>Multiple IF condition using AND - Adding multiple conditions to do any specific tas
+-- if [ "${var_name}"="vishal" && "${company}"="tcs" ]
+    echo "true"
+   fi
+
+>>Multiple IF condition using AND - Adding multiple conditions to do any specific tas
+--if [ "${var_name}"="vishal" || "${company}"="tcs" ]
+    echo "true"
+   fi
+
+THESE ARE THE ANS OF MOCKTEST--1
+
+
+
